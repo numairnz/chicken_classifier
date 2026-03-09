@@ -9,8 +9,8 @@ class Training:
     
     def get_base_model(self):
         self.model = tf.keras.models.load_model(
-            self.config.updated_base_model_path
-        )
+            self.config.updated_base_model_path,
+            compile=False)
     
     def train_valid_generator(self):
 
@@ -60,8 +60,17 @@ class Training:
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
 
-
     def train(self, callback_list: list):
+
+        # compile model before training
+        self.model.compile(
+            optimizer=tf.keras.optimizers.Adam(
+                learning_rate=0.001
+         ),
+         loss="categorical_crossentropy",
+            metrics=["accuracy"]
+        )
+
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 

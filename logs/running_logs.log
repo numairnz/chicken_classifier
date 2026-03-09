@@ -1,0 +1,225 @@
+[2026-03-07 13:36:24,427: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:36:24,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:36:34,948: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:36:34,951: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:36:34,952: INFO: common: Directory created at artifacts]
+[2026-03-07 13:36:34,953: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:37:11,340: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:37:11,348: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:37:11,353: INFO: common: Directory created at artifacts]
+[2026-03-07 13:37:11,353: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:38:42,872: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:38:42,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:38:42,875: INFO: common: Directory created at artifacts]
+[2026-03-07 13:38:42,877: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:38:57,463: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:38:57,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:38:57,466: INFO: common: Directory created at artifacts]
+[2026-03-07 13:38:57,469: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:39:09,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:39:09,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:39:09,155: INFO: common: Directory created at artifacts]
+[2026-03-07 13:39:09,155: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:44:18,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:44:18,846: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:44:18,847: INFO: common: Directory created at artifacts]
+[2026-03-07 13:44:18,848: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:45:35,866: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:45:35,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:45:35,869: INFO: common: Directory created at artifacts]
+[2026-03-07 13:45:35,870: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:45:35,871: INFO: 2852851219: Already exists artifacts/data_ingestion/data.zip]
+[2026-03-07 13:45:56,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-07 13:45:56,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-07 13:45:56,921: INFO: common: Directory created at artifacts]
+[2026-03-07 13:45:56,923: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-07 13:45:56,924: INFO: 3817284226: Already exists artifacts/data_ingestion/data.zip]
+[2026-03-08 21:46:07,144: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-08 21:46:07,144: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:46:07,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:46:07,144: INFO: common: Directory created at artifacts]
+[2026-03-08 21:46:07,144: INFO: common: Directory created at artifacts/data_ingestion]
+[2026-03-08 21:46:07,144: INFO: data_ingestion: File already exists of size: ~11345KB]
+[2026-03-08 21:46:07,329: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-08 21:46:17,857: INFO: stage_02_prepare_base_model: *******************]
+[2026-03-08 21:46:17,857: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2026-03-08 21:46:17,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:46:17,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:46:17,857: INFO: common: Directory created at artifacts]
+[2026-03-08 21:46:17,857: INFO: common: Directory created at artifacts/prepare_base_model]
+[2026-03-08 21:46:18,150: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-08 21:46:18,241: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-08 21:46:18,303: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-03-08 21:46:22,487: INFO: stage_03_training: *******************]
+[2026-03-08 21:46:22,493: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:46:22,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:46:22,494: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:46:22,494: INFO: common: Directory created at artifacts]
+[2026-03-08 21:46:22,499: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:46:22,499: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:46:22,499: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:46:22,655: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-08 21:46:23,507: ERROR: stage_03_training: Unknown variable: <Variable path=dense/kernel, shape=(25088, 2), dtype=float32>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 26, in main
+    training.train(
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\optimizers\base_optimizer.py", line 408, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 2), dtype=float32>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2026-03-08 21:46:55,146: INFO: stage_03_training: *******************]
+[2026-03-08 21:46:55,146: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:46:55,146: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:46:55,146: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:46:55,146: INFO: common: Directory created at artifacts]
+[2026-03-08 21:46:55,146: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:46:55,146: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:46:55,146: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:46:55,306: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-08 21:46:56,048: ERROR: stage_03_training: Unknown variable: <Variable path=dense/kernel, shape=(25088, 2), dtype=float32>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 26, in main
+    training.train(
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\optimizers\base_optimizer.py", line 408, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 2), dtype=float32>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2026-03-08 21:49:04,894: INFO: stage_03_training: *******************]
+[2026-03-08 21:49:04,894: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:49:04,896: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:49:04,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:49:04,897: INFO: common: Directory created at artifacts]
+[2026-03-08 21:49:04,897: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:49:04,897: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:49:04,898: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:49:05,136: ERROR: stage_03_training: You must call `compile()` before using the model.]
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 26, in main
+    training.train(
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\trainers\trainer.py", line 1058, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+[2026-03-08 21:51:34,980: INFO: stage_03_training: *******************]
+[2026-03-08 21:51:34,980: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:51:34,980: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:51:34,980: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:51:34,980: INFO: common: Directory created at artifacts]
+[2026-03-08 21:51:34,980: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:51:34,980: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:51:34,980: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:51:35,166: ERROR: stage_03_training: You must call `compile()` before using the model.]
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 26, in main
+    training.train(
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\training.py", line 94, in train
+    self.model.fit(
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\keras\src\trainers\trainer.py", line 1058, in _assert_compile_called
+    raise ValueError(msg)
+ValueError: You must call `compile()` before using the model.
+[2026-03-08 21:52:30,700: INFO: stage_03_training: *******************]
+[2026-03-08 21:52:30,700: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:52:30,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:52:30,700: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:52:30,700: INFO: common: Directory created at artifacts]
+[2026-03-08 21:52:30,700: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:52:30,700: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:52:30,700: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:52:30,907: ERROR: stage_03_training: 'TrainingConfig' object has no attribute 'params_learning_rate']
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_03_training.py", line 26, in main
+    training.train(
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\training.py", line 68, in train
+    learning_rate=self.config.params_learning_rate
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrainingConfig' object has no attribute 'params_learning_rate'
+[2026-03-08 21:54:00,687: INFO: stage_03_training: *******************]
+[2026-03-08 21:54:00,687: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2026-03-08 21:54:00,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:54:00,697: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:54:00,697: INFO: common: Directory created at artifacts]
+[2026-03-08 21:54:00,697: INFO: common: Directory created at artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-08 21:54:00,697: INFO: common: Directory created at artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-08 21:54:00,697: INFO: common: Directory created at artifacts\training]
+[2026-03-08 21:54:13,265: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-08 21:54:13,339: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-08 21:54:13,519: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-08 21:54:17,866: INFO: stage_04_evaluation: *******************]
+[2026-03-08 21:54:17,882: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-08 21:54:17,883: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:54:17,883: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:54:17,883: INFO: common: Directory created at artifacts]
+[2026-03-08 21:54:18,039: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-08 21:54:21,877: ERROR: stage_04_evaluation: [Errno 2] No such file or directory: 'scores.json']
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 20, in main
+    evaluation.save_score()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\evaluation.py", line 51, in save_score
+    save_json(path=Path("scores.json"), data=scores)
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\ensure\main.py", line 807, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\utils\common.py", line 43, in save_json
+    with open(path) as f:
+         ^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'scores.json'
+[2026-03-08 21:56:46,252: INFO: stage_04_evaluation: *******************]
+[2026-03-08 21:56:46,252: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-08 21:56:46,252: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:56:46,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:56:46,252: INFO: common: Directory created at artifacts]
+[2026-03-08 21:56:46,447: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-08 21:56:50,436: ERROR: stage_04_evaluation: [Errno 2] No such file or directory: 'scores.json']
+Traceback (most recent call last):
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
+    obj.main()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 20, in main
+    evaluation.save_score()
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\components\evaluation.py", line 51, in save_score
+    save_json(data=scores, path=Path("scores.json"))
+  File "C:\Users\numai\miniconda3\envs\cnn_env\Lib\site-packages\ensure\main.py", line 807, in __call__
+    return self.f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\numai\Documents\Chicken-Disease-Classification-Projects\src\cnnClassifier\utils\common.py", line 43, in save_json
+    with open(path) as f:
+         ^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'scores.json'
+[2026-03-08 21:57:52,869: INFO: stage_04_evaluation: *******************]
+[2026-03-08 21:57:52,869: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-08 21:57:52,869: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-08 21:57:52,869: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-08 21:57:52,869: INFO: common: Directory created at artifacts]
+[2026-03-08 21:57:53,034: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-08 21:57:56,909: INFO: common: json file saved at: scores.json]
+[2026-03-08 21:57:56,909: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
